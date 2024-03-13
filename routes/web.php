@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\tes;
+use App\Http\Controllers\tes2;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,3 +18,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 route::get('/tes', [tes::class,'getdata'] );
+route::get('/tes2', [tes2::class,'tes2']);
